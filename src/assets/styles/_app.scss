@@ -1,0 +1,16 @@
+.link{
+  text-decoration: none;
+}
+
+.password-container{
+  position: relative;
+
+  .password-icon{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: url('https://static.zohocdn.com/iam/v2/components/images/newZoho_logo.5f6895fcb293501287eccaf0007b39a5.svg');
+  }
+}
